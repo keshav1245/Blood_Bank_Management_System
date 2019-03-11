@@ -1,0 +1,127 @@
+body{
+	background-color: #FF1010;
+	background-image: url(../images/bg1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.loginbox{
+	margin: 7% auto;
+	padding: 20px;
+
+}
+.container{
+	border:none;
+}
+.loginbox .loginhead{
+	font-size: 35px;
+	background-color: white;
+	font-family: "Pacifico",cursive;
+	opacity: 0.7;
+	color: maroon;
+	text-align: center;
+	border-bottom: 2px solid maroon;
+	border-radius: 20px 20px 0px 0px;
+	padding: 10px;
+}
+.loginform{
+	border:1px solid white;
+	background-color: white;
+	opacity: 0.7;
+	margin: 0 auto;
+	border-radius:0px 0px 20px 20px;
+}
+
+.col-30{
+	width: 30%;
+	float: left;
+	padding: 20px;
+	margin-top: 15px;
+}
+.col-70{
+	width: 70%;
+	float: left;
+	margin-top: 15px;
+	padding: 15px;
+}
+.loginform:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+input[type = 'text'],input[type = 'email'],input[type="password"]{
+	padding: 12px;
+	color: maroon;
+	background-color: white;
+	resize: vertical;
+	width: 100%;
+	border-radius: 5px;
+	border:2px solid maroon;
+	outline: none;
+	transition: 1s;
+}
+input:hover{
+	transition: 1s;
+	border-color: green;
+}
+label{
+	color: maroon;
+	font-size: 20px;
+	font-family: "Poor Story",cursive;
+	display: inline-block;
+}
+input[type = 'submit']{
+	background-color: white;
+	border: 2px solid maroon;
+	border-radius: 10px;
+	color: maroon;
+	font-family: "Poor Story",cursive;
+	font-size: 25px;
+	padding: 10px 26px;
+	float: right;
+	
+	text-align: center;
+	transition: 0.5s;
+}
+input[type = 'submit']:hover{
+	transition: 0.5s;
+	background-color: #00A1F1; 
+	color:white;
+	border-radius: 10px;
+}
+.errordisplay{
+	color: maroon;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Poor Story",cursive;
+}
+.footer{
+	padding: 20px;
+	background-color: transparent;
+	background-image: none;
+}
+
+.footer h1{
+	font-size: 40px;
+	text-align: center;
+	font-family: "Pacifico",cursive
+	color: maroon;
+}
+.foot_content .col-50{
+	background-color: white;
+	opacity: 0.7;
+	padding: 20px;
+	border: 2px solid maroon;
+	border-radius: 10px;
+	resize: vertical;
+}
+.footer p{
+	color: maroon;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Poor Story",cursive;
+}
+.footer:after{
+	content: "";
+	display: table;
+	clear: both;
+}

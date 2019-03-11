@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:0px;
+	background-color: #FF1010;
+
+}
+.banner3{
+	background-image: url(../images/banner3.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	font-family: 'Poor Story',cursive;
+	text-align: center;
+	padding: 120px 0px;
+}
+.banner3 h1{
+	color: navy;
+	font-size: 70px;
+
+	padding-bottom: 10px 0px;
+}
+.banner3 p{
+	position: relative;
+	top: 80%;
+	bottom: 20%;
+	color: black;
+	font-size: 40px;
+	margin-top: 80px;
+	
+}
+.banner3 p span{
+		background-color: white;
+		opacity: 0.8;
+		padding: 15px;
+		border-radius: 10px;
+}

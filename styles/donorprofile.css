@@ -1,0 +1,180 @@
+body{
+	background-image: url(../images/bg4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.profilebox{
+	margin: 7% auto;
+	padding: 20px;
+}
+.adminhead{
+	font-size: 55px;
+	background-color: white;
+	font-family: "Work Sans",cursive;
+	opacity: 0.8;
+	color: maroon;
+	text-align: center;
+	border-bottom: 2px solid maroon;
+	border-radius: 20px 20px 0px 0px;
+	padding: 0px;
+}
+
+.admin-profile-content{
+	background-color: white;
+	font-family: "Work Sans",cursive;
+	opacity: 0.9;
+	color: maroon;
+	border-radius:  0px 0px 20px 20px;
+}
+.tab{
+	width: 30%;
+	float: left;
+	overflow: auto;
+	border: 1px solid maroon;
+	border-right: none;
+	opacity: 0.9;
+	background-color: white;
+	font-family: "Work Sans",cursive;
+	color: maroon;
+	height: 367px;
+	border-radius:  0px 0px 0px 20px;
+	
+}
+.tab button{
+	outline: none;
+	display: block;
+	color: maroon;
+	background-color: white;
+	padding: 22px 16px;
+	width: 100%;
+	text-align: left;
+	transition: 0.5s;
+	font-size: 20px;
+	font-family: "Work Sans",cursive;
+}
+.tab button:hover{
+	background-color: maroon;
+	color: white;
+	transition: 0.5s;
+}
+.tab button.active {
+    background-color: maroon;
+    color: white;
+}
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid maroon;
+    width: 70%;
+    height: 367px;
+    border-left: none;
+    overflow:auto;
+    
+    opacity: 0.9;
+
+	background-color: white;
+	font-family: "Work Sans",cursive;
+	color: maroon;
+	border-radius:  0px 0px 20px 0px;
+}
+#welcome{
+	background-color: white;
+	opacity: 0.9;
+	
+}
+#welcome h1{
+	text-align: center;
+	font-size: 80px;
+	color: maroon;
+
+	font-family: "Work Sans",cursive;
+}
+#welcome p{
+	font-size: 30px;
+	text-align: center;
+	color: maroon;
+	font-family: "Work Sans",cursive;
+
+}
+.feedback{
+	padding: 15px;
+	color: maroon;
+	background-color: white;
+	margin-top: 5px;
+	border: 4px solid maroon;
+	opacity: 0.8;
+	border-radius: 10px;
+
+}
+.feedback h1{
+	color: maroon;
+	font-family: "Work Sans",cursive;
+	font-size: 50px;
+	text-align: center;
+}
+.feedback h1 span{
+	border-bottom: 4px solid maroon; 
+}
+.col-30{
+	width: 30%;
+	float: left;
+	margin-top: 5px;
+}
+.col-70{
+	width: 70%;
+	float: left;
+	margin-top: 5px;
+}
+.feedbackform:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+input[type = 'text'],input[type = 'password'],input[type = 'email'],input[type = 'date'],input[type = 'int'],select{
+	padding: 12px;
+	color: maroon;
+	background-color: white;
+	resize: vertical;
+	width: 100%;
+	border-radius: 5px;
+	border:2px solid maroon;
+	outline: none;
+	transition: 1s;
+}
+input:hover,select:hover{
+	transition: 1s;
+	border-color: green;
+}
+label{
+	color: maroon;
+	font-size: 20px;
+	font-family: "Work Sans",cursive;
+	display: inline-block;
+}
+input[type = 'submit']{
+	background-color: white;
+	border: 2px solid maroon;
+	border-radius: 10px;
+	color: maroon;
+	font-family: "Work Sans",cursive;
+	font-size: 25px;
+	padding: 10px 26px;
+	float: right;
+	margin-top: 20px;
+	text-align: center;
+	transition: 0.5s;
+}
+input[type = 'submit']:hover{
+	transition: 0.5s;
+	background-color: #00A1F1; 
+	color:white;
+	border-radius: 10px;
+}
+.errordisplay{
+	color: maroon;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Work Sans",cursive;
+}
+

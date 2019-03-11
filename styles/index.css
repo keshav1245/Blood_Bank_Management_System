@@ -1,0 +1,439 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+
+	margin:0px;
+	background-color: #FF6347;
+
+}
+
+#navb #logo{
+	float: left;
+}
+#navb{
+	border: 2px solid white;
+	position: sticky;
+	top: 0px;
+	z-index: 1;
+
+}
+#navb #active {
+	color: #FF1010;
+	background-color: white;
+}
+#navb ul{
+	overflow: hidden;
+	list-style: none;
+	margin:0px;
+	padding: 0px;
+	background-color: #FF1010;
+
+}
+#navb li{
+	float: right;
+}
+
+.container{
+	border: none;
+}
+#navb a{
+	font-family: 'Pacifico', cursive;
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	padding: 14px 16px;	
+	transition: 0.5s;
+}
+#navb a:hover{
+	color: #FF1010;
+	background-color: white;
+	transition: 0.5s;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: white;
+    color: #FF1010;
+}
+.dropdown-content{
+	background-color: white;
+	color: #FF1010;
+}
+.dropdown-content a{
+	background-color: #FF1010;
+	color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+    color: #FF1010;
+}
+.dropdown .dropbtn:hover{
+    background-color: white;
+    color: #FF1010;
+}
+.dropdown-content a {
+    float: none;
+    color: #FF1010;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: #FF1010;
+    min-width: 160px;
+    
+    z-index: 1;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: "Pacifico",cursive;
+}
+
+.dropdown .dropbtn {
+	font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: #FF1010;
+    font-family: "Pacifico",cursive;
+    margin: 0;
+}
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	font-family: 'Poor Story',cursive;
+	text-align: center;
+	padding: 120px 0px;
+}
+.banner h1{
+	color: #222;
+	font-size: 70px;
+	padding-bottom: 10px 0px;
+}
+.banner p{
+	color: #222;
+	font-size: 30px;
+	padding-bottom: 100px;
+}
+.banner p span{
+		background-color: white;
+		opacity: 0.8;
+		padding: 15px;
+		border-radius: 10px;
+}
+.banner h1 span{
+		background-color: white;
+		opacity: 0.8;
+		padding: 15px;
+		border-radius: 10px;
+}
+.btn{
+	background-color: #00A1F1;
+	color:white;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 17px;
+	transition: 1s;
+}
+.btn:hover{
+	background-color: white;
+	color: #FF1010;
+	transition: 1s;
+}
+.quote{
+	border: 2px solid white;
+	background-color: #FF1010;
+	margin: 0px;
+	padding: 10px;
+}
+.para{
+	color: maroon;
+	background-color: white;
+	padding: 5px;
+	font-size: 25px;
+	font-family: 'Pacifico', cursive;
+	border: 2px dashed white;
+	border-radius: 10px;
+}
+#writer{
+	text-align: center;
+}
+
+.content1{
+	background-color: #FF1010;
+	margin: 0px;
+	border: 2px solid white;
+	background-image: url(../images/banner1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px;
+	color: white;
+}
+#inner_content1{
+	border: 2px dashed white;
+	border-radius: 10px;
+	padding: 10px;
+}
+.content1 h1{
+	font-family: 'Pacifico',cursive;
+	text-align: center;
+	font-size: 50px;	
+	color: white;
+}
+.content1 p,.content1 ul{
+	font-family: 'Poor Story',cursive;
+	font-size: 30px;
+} 
+.sponsors{
+	border: 2px solid white;
+	padding: 10px;
+	background-color: #FF1010;
+}
+.content_sponsor{
+	border-radius: 10px;
+	border: 4px solid maroon;
+	margin:0 auto;
+	color: maroon;
+	background-color: white;
+	opacity: 0.95;
+}
+.content_sponsor h1{
+	color: maroon;
+	text-align: center;
+	font-size: 50px;
+	font-family: "Poor Story",cursive;
+}
+.content_sponsor span{
+	border-bottom: 1px solid white;
+	padding: 10px;
+}
+.content_sponsor .card1{
+	border-radius: 10px;
+	border: 2px solid white;
+	padding: 10px;
+	width: 205px;
+}
+.content_sponsor .card1 img{
+	max-height: 180px;
+	max-width: 200px;
+}
+.cards{
+	display: inline-block;
+}
+.card1{
+	display: block;
+	margin: 0 auto;
+	float: left;
+	transition: 1s;
+}
+.sponsors_cards{
+	padding: 10px;
+	margin: 0px auto;
+	text-align: center;	
+}
+.sponsors_cards:after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.card1 p{
+	font-family: 'Poor Story',cursive;
+	font-size: 20px;	
+	text-align: center;
+	color: maroon;
+}
+.card2 p{
+	font-family: 'Poor Story',cursive;
+	font-size: 20px;	
+	text-align: center;
+	color: maroon;
+}
+
+.card2{
+	display: block;
+	margin: 0 auto;
+	float: left;
+	transition: 1s;
+}
+.content_sponsor .card2{
+	border-radius: 10px;
+	border: 2px solid white;
+	padding: 10px;
+	width: 205px;
+}
+.content_sponsor .card2 img{
+	max-height: 180px;
+	max-width: 200px;
+}
+.card3 p{
+	font-family: 'Poor Story',cursive;
+	font-size: 20px;	
+	text-align: center;
+	color: maroon;
+}
+
+.card3{
+	display: block;
+	margin: 0 auto;
+	float: left;
+	transition: 1s;
+}
+.content_sponsor .card3{
+	border-radius: 10px;
+	border: 2px solid white;
+	padding: 10px;
+	width: 205px;
+}
+.content_sponsor .card3 img{
+	max-height: 180px;
+	max-width: 200px;
+}
+.card4 p{
+	font-family: 'Poor Story',cursive;
+	font-size: 20px;	
+	text-align: center;
+	color: maroon;
+}
+
+.card4{
+	display: block;
+	margin: 0 auto;
+	float: left;
+	transition: 1s;
+}
+.content_sponsor .card4{
+	border-radius: 10px;
+	border: 2px solid white;
+	padding: 10px;
+	width: 205px;
+}
+.content_sponsor .card4 img{
+	max-height: 180px;
+	max-width: 200px;
+}
+.card5 p{
+	font-family: 'Poor Story',cursive;
+	font-size: 20px;	
+	text-align: center;
+	color: maroon;
+}
+
+.card5{
+	display: block;
+	margin: 0 auto;
+	float: left;
+	transition: 1s;
+}
+.content_sponsor .card5{
+	border-radius: 10px;
+	border: 2px solid white;
+	padding: 10px;
+	width: 205px;
+}
+.content_sponsor .card5 img{
+	max-height: 180px;
+	max-width: 200px;
+}
+
+.card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover{
+	background-color:black;
+	transition: 1s;
+	color: white;
+
+}
+
+
+.col-50{
+width: 50%;
+float: left;
+display: block;
+}
+.footer{
+	padding: 20px;
+	background-image: url("../images/foot.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: maroon;
+}
+
+.footer h1{
+	font-size: 40px;
+	text-align: center;
+	font-family: "Pacifico",cursive
+	color: maroon;
+}
+.foot_content .col-50{
+	background-color: white;
+	opacity: 0.95;
+	padding: 20px;
+	border: 2px solid maroon;
+	border-radius: 10px;
+	resize: vertical;
+}
+.footer p{
+	color: maroon;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Poor Story",cursive;
+}
+.footer:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+@media only screen and (max-width: 1000px){
+	.col-50{
+		width: 100%;
+		float: none;
+		resize: vertical;
+	}
+	.row .col-30{
+		float: none;
+		width: 100%;
+	}
+	.row .col-70{
+		float: none;
+		width: 100%;
+	}
+	.card1,.card2,.card3,.card4,.card5{
+		float: none;
+		resize: vertical;
+	}
+	#navb li{
+		float: none;
+		display: block;
+	}
+	#navb #logo{
+		float: none;
+	}
+	.dropdown .dropbtn{
+		display:none;
+		/*width: 100%;*/
+	}
+	.loginbox{
+		margin: 50% auto;
+	}
+	.dropdown-content{
+		display: block;
+		width: 100%;
+	}
+}
